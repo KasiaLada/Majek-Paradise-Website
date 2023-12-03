@@ -467,6 +467,31 @@ body {
 		}
 	}
 }
+
+// FOOTER
+
+.footer {
+	color: $pure-white;
+	background-color: $dark;
+	.wrapper {
+		padding: 6em 2em 2em;
+	}
+
+	&__box {
+		font-size: 1.4rem;
+	}
+	&__box-desktop {
+		// display: none;
+	}
+	&__box-title {
+		margin-bottom: 1em;
+		font-size: 3rem;
+		text-transform: uppercase;
+	}
+	&__box-social{
+		margin: 2em 0 1em;
+	}
+}
 // ----------------------------
 // MEDIA
 // -----------------
